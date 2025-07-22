@@ -3,9 +3,12 @@ plugins {
     id 'maven-publish'
 }
 
-group 'cpaas.tp'
+group = 'cpaas.tp'
 
-sourceCompatibility = 1.8
+
+java {
+    sourceCompatibility = JavaVersion.VERSION_18
+}
 
 
 repositories {
@@ -14,7 +17,7 @@ repositories {
 
 dependencies {
    implementation 'org.apache.commons:commons-lang3:3.6'
-   testCompile group: 'junit', name: 'junit', version: '4.12'
+   testImplementation group: 'junit', name: 'junit', version: '4.12'
 }
 
 
