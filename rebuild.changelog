@@ -1,3 +1,4 @@
 - 2024-09-05 [CPAAS-5547] Test pig builds in midstream
 Automation added comment to force a rebuild - Wed Sep 25 14:32:01 2024
 Automation added comment to force a rebuild - Mon Sep 30 16:15:11 2024
+- 2025-09-23 [CPAAS-6176] Update PNC on rhprod-cli and product-ci-cd
