@@ -5,10 +5,7 @@ plugins {
 
 group = 'cpaas.tp'
 
-
-java {
-    sourceCompatibility = VERSION_1_8
-}
+sourceCompatibility = 1.8
 
 
 repositories {
